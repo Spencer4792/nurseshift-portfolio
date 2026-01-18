@@ -8,6 +8,8 @@ NurseShift is a mobile-first scheduling platform designed to solve the critical 
 business logic and IP. This repository serves as a technical case study
 demonstrating architecture, features, and implementation decisions.
 
+![Available Shifts](./screenshots/shifts-page.png)
+
 ## Core Differentiators
 
 ### Transparent Pricing
