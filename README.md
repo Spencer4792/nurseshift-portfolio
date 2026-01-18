@@ -4,6 +4,10 @@
 
 NurseShift is a mobile-first scheduling platform designed to solve the critical pain points plaguing the nursing scheduling industry. Built on principles of transparency, fairness, and exceptional user experience.
 
+**Note:** The full production repository is private due to proprietary
+business logic and IP. This repository serves as a technical case study
+demonstrating architecture, features, and implementation decisions.
+
 ## Core Differentiators
 
 ### Transparent Pricing
