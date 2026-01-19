@@ -1,8 +1,8 @@
-# NurseShift
+# GoShift
 
 > **Transparent, fair nursing scheduling for healthcare professionals**
 
-NurseShift is a mobile-first scheduling platform designed to solve the critical pain points plaguing the nursing scheduling industry. Built on principles of transparency, fairness, and exceptional user experience.
+GoShift is a mobile-first scheduling platform designed to solve the critical pain points plaguing the nursing scheduling industry. Built on principles of transparency, fairness, and exceptional user experience.
 
 **Note:** The full production repository is private due to proprietary
 business logic and IP. This repository serves as a technical case study
@@ -35,7 +35,7 @@ demonstrating architecture, features, and implementation decisions.
 ## Project Structure
 
 ```
-nurseshift/
+GoShift/
 ├── apps/
 │   ├── mobile/          # React Native (Expo) mobile app
 │   ├── web/             # Next.js web application & facility dashboard
@@ -60,8 +60,8 @@ nurseshift/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nurseshift.git
-cd nurseshift
+git clone https://github.com/yourusername/GoShift.git
+cd GoShift
 ```
 
 2. Install dependencies:
@@ -87,7 +87,7 @@ npm run dev
 
 ## Packages
 
-### @nurseshift/database
+### @GoShift/database
 Prisma schema and database client. Contains all data models including:
 - Users (nurses, facility admins)
 - Nurse profiles with licenses and certifications
@@ -98,7 +98,7 @@ Prisma schema and database client. Contains all data models including:
 - Earnings with fee breakdowns
 - Time tracking with offline support
 
-### @nurseshift/shared
+### @GoShift/shared
 Shared code across all apps:
 - **Constants** - Platform fees, cancellation policies, SLAs
 - **Schemas** - Zod validation for all API inputs
